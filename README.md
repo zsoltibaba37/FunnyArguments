@@ -1,7 +1,7 @@
-## FunnyArguments
+# FunnyArguments
 ---
 
-### Just for fun
+## Just for fun
 
 Sample cases:
 
