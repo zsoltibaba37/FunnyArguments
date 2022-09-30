@@ -8,7 +8,7 @@ int main(int argc, char const *argv[]) {
   std::string empty = " ";
 
   if (argc == 1){
-    pa.printArguments(argc,empty, 0);
+    pa.printArguments(argc, empty, 0);
   }
   else if (argc > 1){
     for (size_t i = 1; i < argc; i++) {
