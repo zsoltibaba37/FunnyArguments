@@ -10,9 +10,9 @@ Sample cases:
 No Extra Command Line Argument !
 
 :$ ./main foo bar barfoo
-The second argument is: foo
-The third argument is: bar
-The fourth argument is: barfoo
+The first argument is: foo
+The second argument is: bar
+The third argument is: barfoo
 
 ```
 
