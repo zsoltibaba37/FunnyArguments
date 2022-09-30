@@ -20,7 +20,7 @@ void Arguments::printArguments(int _c, std::string _v, int _it)
     exit(0);
   }
   else{
-    textOut = texts[it];
+    textOut = texts[it-1];
   }
 
   if (c <= 1){
