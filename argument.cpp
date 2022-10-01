@@ -2,9 +2,7 @@
 #include <iostream>
 
 
-Arguments::Arguments()
-  :c (0), v (), it (0)
-{}
+Arguments::Arguments(){}
 
 void Arguments::printArguments(int _c, std::string _v, int _it)
 {
@@ -12,11 +10,10 @@ void Arguments::printArguments(int _c, std::string _v, int _it)
   v = _v;
   it = _it;
   std::string textOut;
-  std::string texts[8] = {"first", "second", "third", "fourth", "fifth", "sixth", "seventh", "are you f..ing kidding mee?"};
+  std::string texts[8] = {"first   ", "second  ", "third   ", "fourth  ", "fifth   ", "sixth   ", "seventh ", "are you f..ing kidding mee?"};
 
-  if (it >= 7) {
-    textOut = texts[7];
-    std::cout << "\n" << textOut << "\n";
+  if (it > 7) {
+    std::cout << "\n" << texts[7] << "\n";
     exit(0);
   }
   else{
@@ -27,7 +24,7 @@ void Arguments::printArguments(int _c, std::string _v, int _it)
     std::cout << "No Extra Command Line Argument ! \n";
   }
   else if (c > 1){
-    std::cout << "The " << textOut << " argument is: " << v << "\n";
+    std::cout << "The " << textOut << "argument is: " << v << "\n";
   }
 
 }
