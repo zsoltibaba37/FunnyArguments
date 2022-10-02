@@ -15,14 +15,11 @@ The second  argument is: wer
 The third   argument is: sad
 The fourth  argument is: sad
 The fifth   argument is: asd
-The sixth   argument is: sad
-The seventh argument is: sad
 
-are you f..ing kidding mee?
 
 :$
 ```
 
 ---
 
-2022-09-29
+2022-10-02
